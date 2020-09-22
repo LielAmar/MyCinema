@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jun 19 08:39:53 IDT 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Programming\\Android Studio Workspace\\MyCinemaProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+0.path=classes.dex
+0.set=DEX
+count=1

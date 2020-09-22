@@ -1,0 +1,4 @@
+#Wed Jun 19 08:39:53 IDT 2019
+base.0=D\:\\Programming\\Android Studio Workspace\\MyCinemaProject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+path.0=classes.dex
+renamed.0=classes.dex

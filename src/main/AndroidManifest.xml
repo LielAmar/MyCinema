@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mycinema.liel.net.mycinemaproject">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Analyze"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MovieActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AddMovieActivity" />
+        <activity android:name=".TermsActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".ChangeEmailActivity" />
+        <activity android:name=".AddAdminActivity"></activity>
+        
+        <receiver android:name=".Utils.BroadcastReceiverManager" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_AIRPLANE_MODE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".AppService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

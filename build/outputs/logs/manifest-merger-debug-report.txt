@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\423ff361b983b1d652d97d17cc5b38ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\20c70295e57349ca4d76aaa140aca77c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a240fc88cd84fdec29b42cb00b8b0700\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\daa6b8e737c9da54b5c3b876ba8dde47\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\ce85a60f201536bc31613406cb909647\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc01.aar\8e6cc7eba1de15660c9c4895062a27f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\8112378060bf976236715562fe052ef3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\980d8ac98a343b58ccf6f0e2b1ffe397\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\6544c513f852d02926e8da4bf6b7125c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1721b4f1a73795626e625803e82c909c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\23dd1d750911678a7bb12b227a41b1a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc01.aar\ab95aac22512ca7813c68ba6a030b0b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\82d36d8318ddedb484d5088a6817759e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\bb2f4a42ece12040b9825b75d253ca8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\0d7687383049744b578d4fee1d933ae3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\687188be68a6758323d5a5bf2a02329b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\11088e81f7928ad76bac94164aafc83b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\6baa5e7ddf8cf3b97d1018c5224c2cd5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\67b9cba9484788b27f56d17161fb7eaf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f86d010d317259f48dede23d2b3e7475\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\562ed4d8bb20fd2895a51e2e5cc4adfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\6e02aa7e20f0e8375e12dbeaef52b69e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\d2c3743f6386e9d2e859ab9415170d2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\978d01c173628ae2010f6e01767db388\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\1bd544878c12c0fe8cbac6e706b86204\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bce56d91701ff6389d7a3e3c956c92bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\62861b0669809da73493cbb30b5788c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\428122f96d802dc4315b0db1f25cb2a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\27252709a68a3341e8acfb1fa48c1ef8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2a5d4421a7c95114d2caa50b5b74a35b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bf83286f84df04087bbb03ba5385beb1\AndroidManifest.xml:17:1-25:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:7:22-76
+application
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:10:5-47:19
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\423ff361b983b1d652d97d17cc5b38ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\423ff361b983b1d652d97d17cc5b38ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a240fc88cd84fdec29b42cb00b8b0700\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a240fc88cd84fdec29b42cb00b8b0700\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bf83286f84df04087bbb03ba5385beb1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bf83286f84df04087bbb03ba5385beb1\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:16:9-65
+activity#mycinema.liel.net.mycinemaproject.Analyze
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:screenOrientation
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:18:13-36
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:23:27-74
+activity#mycinema.liel.net.mycinemaproject.MainActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:26:9-28:52
+	android:screenOrientation
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:27:13-41
+activity#mycinema.liel.net.mycinemaproject.MovieActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:screenOrientation
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:30:13-42
+activity#mycinema.liel.net.mycinemaproject.AddMovieActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:32:9-54
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:32:19-51
+activity#mycinema.liel.net.mycinemaproject.TermsActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:33:19-48
+activity#mycinema.liel.net.mycinemaproject.ChangePasswordActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:34:9-60
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:34:19-57
+activity#mycinema.liel.net.mycinemaproject.ChangeEmailActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:35:9-57
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:35:19-54
+activity#mycinema.liel.net.mycinemaproject.AddAdminActivity
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:36:9-63
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:36:19-51
+receiver#mycinema.liel.net.mycinemaproject.Utils.BroadcastReceiverManager
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:38:9-42:20
+	android:enabled
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:38:66-88
+	android:exported
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:38:89-112
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:38:19-65
+intent-filter#action:name:android.intent.action.ACTION_AIRPLANE_MODE_CHANGED
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:39:13-41:29
+action#android.intent.action.ACTION_AIRPLANE_MODE_CHANGED
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:40:17-92
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:40:25-90
+service#mycinema.liel.net.mycinemaproject.AppService
+ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:44:9-46:38
+	android:enabled
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:46:13-35
+	android:name
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml:45:13-39
+uses-sdk
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\423ff361b983b1d652d97d17cc5b38ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc01.aar\423ff361b983b1d652d97d17cc5b38ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\20c70295e57349ca4d76aaa140aca77c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\20c70295e57349ca4d76aaa140aca77c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a240fc88cd84fdec29b42cb00b8b0700\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\a240fc88cd84fdec29b42cb00b8b0700\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\daa6b8e737c9da54b5c3b876ba8dde47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\daa6b8e737c9da54b5c3b876ba8dde47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\ce85a60f201536bc31613406cb909647\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\ce85a60f201536bc31613406cb909647\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc01.aar\8e6cc7eba1de15660c9c4895062a27f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0-rc01.aar\8e6cc7eba1de15660c9c4895062a27f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\8112378060bf976236715562fe052ef3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\8112378060bf976236715562fe052ef3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\980d8ac98a343b58ccf6f0e2b1ffe397\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc01.aar\980d8ac98a343b58ccf6f0e2b1ffe397\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\6544c513f852d02926e8da4bf6b7125c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\6544c513f852d02926e8da4bf6b7125c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1721b4f1a73795626e625803e82c909c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1721b4f1a73795626e625803e82c909c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\23dd1d750911678a7bb12b227a41b1a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc01.aar\23dd1d750911678a7bb12b227a41b1a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc01.aar\ab95aac22512ca7813c68ba6a030b0b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0-rc01.aar\ab95aac22512ca7813c68ba6a030b0b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\82d36d8318ddedb484d5088a6817759e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\82d36d8318ddedb484d5088a6817759e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\bb2f4a42ece12040b9825b75d253ca8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\bb2f4a42ece12040b9825b75d253ca8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\0d7687383049744b578d4fee1d933ae3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\0d7687383049744b578d4fee1d933ae3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\687188be68a6758323d5a5bf2a02329b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\687188be68a6758323d5a5bf2a02329b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\11088e81f7928ad76bac94164aafc83b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\11088e81f7928ad76bac94164aafc83b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\6baa5e7ddf8cf3b97d1018c5224c2cd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\6baa5e7ddf8cf3b97d1018c5224c2cd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\67b9cba9484788b27f56d17161fb7eaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\67b9cba9484788b27f56d17161fb7eaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f86d010d317259f48dede23d2b3e7475\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f86d010d317259f48dede23d2b3e7475\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\160d19154f478ee13969c0b55ccde948\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\562ed4d8bb20fd2895a51e2e5cc4adfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\562ed4d8bb20fd2895a51e2e5cc4adfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\6e02aa7e20f0e8375e12dbeaef52b69e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc01.aar\6e02aa7e20f0e8375e12dbeaef52b69e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\d2c3743f6386e9d2e859ab9415170d2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\d2c3743f6386e9d2e859ab9415170d2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\978d01c173628ae2010f6e01767db388\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\978d01c173628ae2010f6e01767db388\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\1bd544878c12c0fe8cbac6e706b86204\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\1bd544878c12c0fe8cbac6e706b86204\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bce56d91701ff6389d7a3e3c956c92bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bce56d91701ff6389d7a3e3c956c92bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\62861b0669809da73493cbb30b5788c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\62861b0669809da73493cbb30b5788c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\428122f96d802dc4315b0db1f25cb2a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\428122f96d802dc4315b0db1f25cb2a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\27252709a68a3341e8acfb1fa48c1ef8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\27252709a68a3341e8acfb1fa48c1ef8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2a5d4421a7c95114d2caa50b5b74a35b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2a5d4421a7c95114d2caa50b5b74a35b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bf83286f84df04087bbb03ba5385beb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Liel\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bf83286f84df04087bbb03ba5385beb1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		ADDED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Android Studio Workspace\MyCinemaProject\app\src\main\AndroidManifest.xml

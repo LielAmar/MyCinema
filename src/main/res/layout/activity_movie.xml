@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background"
+    tools:openDrawer="start"
+    tools:context=".MovieActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movieName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Movie's name"
+                android:textColor="@color/title_text_color"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                android:paddingTop="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/moviePoster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_select"/>
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/movieCategoryHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's category"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/arial"/>
+
+                            <TextView
+                                android:id="@+id/movieCategory"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's category"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:fontFamily="@font/arial"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/movieLengthHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's length"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/arial"/>
+
+                            <TextView
+                                android:id="@+id/movieLength"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's length"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:fontFamily="@font/arial"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/moviePremiereHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's premiere"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/arial"/>
+
+                            <TextView
+                                android:id="@+id/moviePremiere"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's premiere"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:fontFamily="@font/arial"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/movieAgeLimitHeader"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's age limit"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/arial"/>
+
+                            <TextView
+                                android:id="@+id/movieAgeLimit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Movie's age limit"
+                                android:textColor="@color/title_text_color"
+                                android:textSize="16dp"
+                                android:fontFamily="@font/arial"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/addMovieToFavorite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:src="@mipmap/ic_unfavorite"
+                                android:scaleType="fitCenter"/>
+
+                            <ImageButton
+                                android:id="@+id/removeMovieFromFavorite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:src="@mipmap/ic_favorite"
+                                android:scaleType="fitCenter"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/movieDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Movie's description"
+                android:textColor="@color/title_text_color"
+                android:textSize="18dp"
+                android:fontFamily="@font/arial"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"
+                android:text="Order tickets for this movie"
+                android:textColor="@color/title_text_color"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"/>
+
+            <TextView
+                android:id="@+id/movieCinemaCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:text="Order tickets from Cinema City"
+                android:textColor="@color/link_text_color"
+                android:textSize="18dp"
+                android:fontFamily="@font/arial"/>
+
+            <TextView
+                android:id="@+id/movieYesPlanet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:paddingLeft="20dp"
+                android:layout_gravity="left"
+                android:text="Order tickets from Yes Planet"
+                android:textColor="@color/link_text_color"
+                android:textSize="18dp"
+                android:fontFamily="@font/arial"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/movieActivityTrailerVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/movieDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Delete Movie"
+                    android:textColor="@color/button_text_color"
+                    android:background="@drawable/official_button"
+                    android:stateListAnimator="@null"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:textAllCaps="false"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

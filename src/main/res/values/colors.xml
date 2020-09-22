@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#ffffff</color>
+    <color name="backgrounddark">#636363</color>
+
+    <color name="title_text_color">#404040</color>
+    <color name="secondary_text_color">#4B4B4B</color>
+    <color name="hint_text_color">#ababab</color>
+    <color name="clickable_text_color">#00bfff</color>
+    <color name="admin_clickable_text_color">#ff0045</color>
+    <color name="link_text_color">#0645AD</color>
+    <color name="button_text_color">#ffffff</color>
+
+    <color name="editText_background_color">#c6c6c6</color>
+    <color name="editText_text_color">#595959</color>
+    <color name="editText_hint_color">#ffffff</color>
+
+    <color name="navigation_unchecked_color">#767676</color>
+    <color name="navigation_pressed_color">#616161</color>
+
+    <color name="official_app_color">#ff0045</color>
+
+    <color name="ripple_color">#a1a1a1</color>
+
+    <color name="refresh">#ff0045</color>
+    <color name="refresh1">#00a2ff</color>
+    <color name="refresh2">#00ffa6</color>
+</resources>

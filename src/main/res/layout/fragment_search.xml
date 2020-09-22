@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayoutSearch"
+    android:paddingBottom="8dp">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:id="@+id/swipeLayoutSearch">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="5dp"
+                android:background="@drawable/white_border"
+                android:id="@+id/relativeLayout1">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/ic_magnify"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/ic_search"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/ic_magnify"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:id="@+id/searchText"
+                    android:hint="Search"
+                    android:ellipsize="end"
+                    android:imeOptions="actionSearch"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:background="@null"
+                    android:singleLine="true"/>
+            </RelativeLayout>
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchMoviesListView"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

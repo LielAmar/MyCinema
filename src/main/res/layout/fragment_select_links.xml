@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Fragments.AddMovieFragments.SelectLinksFragment"
+    android:paddingBottom="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Enter the Movie's Trailer Link"
+                    android:textColor="@color/secondary_text_color"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/addMovieTrailerEditText"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColor="@color/editText_text_color"
+                        android:text=""
+                        android:hint="Trailer"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:textColorHint="@color/editText_hint_color"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:paddingTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Enter the Cinema City Link"
+                    android:textColor="@color/secondary_text_color"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/addMovieCinemaCityEditText"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColor="@color/editText_text_color"
+                        android:text=""
+                        android:hint="CinemaCity"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:textColorHint="@color/editText_hint_color"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:paddingTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Enter the Yes Planet Link"
+                    android:textColor="@color/secondary_text_color"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/addMovieYesPlanetEditText"
+                        android:background="@drawable/edit_text_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textColor="@color/editText_text_color"
+                        android:text=""
+                        android:hint="Yes Planet"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:imeOptions="actionDone"
+                        android:textColorHint="@color/editText_hint_color"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

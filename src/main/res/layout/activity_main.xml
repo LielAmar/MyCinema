@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    android:id="@+id/activityMain">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/mainActivityActionBar"
+            layout="@layout/toolbar"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="?attr/actionBarSize"
+            android:paddingBottom="?attr/actionBarSize"
+            android:id="@+id/mainActivityFrameLayout">
+        </FrameLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:clickable="true"
+            app:elevation="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:itemIconTint="@color/bottom_nav_icon_color_selector"
+            app:itemTextColor="@color/bottom_nav_icon_color_selector"
+            app:menu="@menu/navigation" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

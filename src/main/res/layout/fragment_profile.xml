@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:id="@+id/layoutProfile">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:id="@+id/profileHelloUsernameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello, Username!"
+                        android:textColor="@color/title_text_color"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/profileEmailTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your email address is: email@gmail.com"
+                        android:textColor="@color/secondary_text_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/profileChangeEmailTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:text="Change email address"
+                        android:textColor="@color/clickable_text_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/profileChangePasswordTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:text="Change password"
+                        android:textColor="@color/clickable_text_color"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/profileAdminLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="* You are an Admin!"
+                            android:textColor="@color/secondary_text_color"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/profileAddMovieTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:text="Add a new Movie"
+                            android:textColor="@color/admin_clickable_text_color"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/profileAddAdminTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:text="Add a new Admin"
+                            android:textColor="@color/admin_clickable_text_color"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="24dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Switch
+                            android:id="@+id/profileVibrationsSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="16dp"
+                            android:text="Allow Vibrations"
+                            android:textColor="@color/secondary_text_color"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Switch
+                            android:id="@+id/profileNotificationsSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="16dp"
+                            android:text="Allow Notifications"
+                            android:textColor="@color/secondary_text_color"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal">-->
+
+                        <!--<Switch-->
+                            <!--android:id="@+id/profileDarkthemeSwitch"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:paddingLeft="16dp"-->
+                            <!--android:text="Dark Theme"-->
+                            <!--android:textColor="@color/secondary_text_color"-->
+                            <!--android:textSize="14sp" />-->
+
+                    <!--</LinearLayout>-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+            <Button
+                android:id="@+id/profileSignOutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/official_button"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:text="Sign Out"
+                android:textAllCaps="false"
+                android:textColor="@color/button_text_color"
+                android:stateListAnimator="@null"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
