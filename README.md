@@ -1,6 +1,6 @@
 # MyCinema
 
-[<img alt="discord" src="https://lielamar.com/plugins/github_discord.png" size=1.5>](https://discord.gg/NzgBrqR)
+[![Discord](https://img.shields.io/discord/416652224505184276?color=%235865F2&label=Join%20My%20Discord)](https://discord.gg/NzgBrqR)
 
 ## Information
 
